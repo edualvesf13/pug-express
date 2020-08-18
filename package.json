@@ -1,0 +1,24 @@
+{
+  "name": "templates-com-pug",
+  "version": "1.0.0",
+  "description": "Como usar o Pug em projetos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pug templates/*.pug --pretty --out ./build",
+    "start": "npx babel-node src"
+  },
+  "author": "Eduardo Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "babel": "^6.23.0"
+  }
+}
